@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="shortcut icon" href="img/drake_logo_bg.png">
+
+
+    <link rel="stylesheet" type="text/css" href="css/admin.css">
+  </head>
+  <body>
+    <header>
+        <div class="hat sticky-top">
+            <img src="img/drake_logo_bg.png" href="main.html " alt="logo" class="logo">
+            <nav class="navbar text-center navbar-expand-sm" style="background-color: black;">  
+
+                <button class="navbar-toggler bg-dark toggler-example navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1">
+                    <span class="navbar-toggler-icon" style="height: 30px;"></span>
+                </button>
+
+                <div class="collapse navbar-collapse text-center" id="navbarSupportedContent1">
+                    <ul class="navbar-nav text-center mr-auto">
+
+                        <li class="nav-item active">
+                            <a href="main.html" title="Main" class="nav-link">Main<span class="sr-only"></span></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="news.html" title="News" class="nav-link">News</a>
+                        </li>
+                            <li class="nav-item dropdown dd">
+                                <a href="#" title="For Fans" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">For Fans</a>
+                            
+                            <div class="dropdown-menu text-center dd-content bg-dark">
+                                <a class="dropdown-item">First</a>
+                                <a class="dropdown-item">Second</a>
+                                <a class="dropdown-item">Third</a>
+                          </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="fans-appeal.html" title="Fans Appeal" class="nav-link">Fans Appeal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="concert-venue.html" title="Concert Venue" class="nav-link">Concert Venue</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="admin.html" title="Admin" class="nav-link">Admin</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+      <h1>
+        Admin
+      </h1>
+      <section>
+        <div class="admin-flex m-3">
+          <input type="file" name="image" class="form-control-file" style="width:300px; max-width: 100%; color:white;">
+        </div>
+        <div class="admin-flex m-3">
+          <div class="">
+            <input type="text" name="title" size="100" placeholder="News title" class="form-control"><br>
+            <textarea name="text" rows="15" cols="103" placeholder="News body" class="form-control"></textarea>
+          </div>
+          <button type="submit" class="btn btn-dark">Publish</button>
+        </div>
+      </section>
+    </main>
+        <!-- FOOTER -->
+    <footer class="fixed-bottom d-flex justify-content-end">
+        <div class="social">
+            <ul>
+                <li><img src="img/instagram.png" alt="insta" style="width:50px; height: 50px;cursor: pointer;"></li>
+                <li><img src="img/facebook.png" alt="facebook" style="width:50px; height: 50px;cursor: pointer;"></li>
+                <li><img src="img/twitter.png" alt="twitter" style="width:50px; height: 50px;cursor: pointer;"></li>
+            </ul>
+        </div>
+        <span class="copyright">Copyright 2019 Lviv IoT</span>
+    </footer>
+    <!-- END OF FOOTER -->
+  </body>
+</html>
